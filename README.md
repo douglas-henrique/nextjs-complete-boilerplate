@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="read-me-template" />
 
-## Getting Started
+# Next.js 12 Complete Boilerplate
 
-First, run the development server:
+> This is a readme from next.js 12 complete boilerplate.
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/9868584/143581770-3d23227d-214c-4c96-8762-acb62788ad2f.png" width="200" alt="Doug Pen" /> 
+</p>
+
+ 
+### Table of Contents
+Just to make your dev experience more simple :) 
+
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [License](#license)
+- [About me](#about-me)
+
+---
+<a name="description">
+  <h1>Description </h1>
+</a>
+Boilerplate to help developers to have a fast project configuration using the most recent next version and some tools to improve the developer experience. 
+
+#### What is included?
+
+- Next JS
+- Sass
+- Jest
+- React Testing Library 
+- Prettier
+- ESLint
+- PlopJS
+- Axios
+- SWC instead of babel
+
+---
+
+<a name="how-to-use">
+  <h1>How To Use </h1>
+</a>
+
+#### Installation
+
+#### Clone the application using:
+
+1. Click on "use this template" (green button) on repository top
+2. Clone you project to your machine
+
+#### Install dependencies with yarn 
+
+```html
+    yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Using Plop JS
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```html
+    yarn generate 
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+After this, select if you want to create a page or component and set the name.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can change the templates and settings of generator at path `generators` on project root. 
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+<a name="license">
+  <h1>License </h1>
+</a>
+[MIT](https://choosealicense.com/licenses/mit/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a name="about-me">
+  <h1> Author Info </h1> 
+</a>
 
-## Deploy on Vercel
+- Twitter - [@___dougsss](https://twitter.com/___dougsss)
+- Website - [Douglas Henrique](http://dougdev.com.br/)
+- LinkedIn - [Douglas Herique](https://www.linkedin.com/in/douglas-hsp/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Back To The Top](#read-me-template)
