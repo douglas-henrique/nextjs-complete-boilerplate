@@ -10,13 +10,18 @@ module.exports = {
   actions: [
     {
       type: 'add',
-      path: '../src/pages/{{kebabCase name}}.tsx',
+      path: '../src/pages/{{pascalCase name}}/index.tsx',
       templateFile: 'templates/page.tsx.hbs',
     },
     {
       type: 'add',
-      path: '../src/styles/pages/{{pascalCase name}}.module.scss',
+      path: '../src/pages/{{pascalCase name}}/{{pascalCase name}}.style.ts',
       templateFile: 'templates/pageStyle.ts.hbs',
+    },
+    {
+      type: 'add',
+      path: '../src/pages/{{pascalCase name}}/__tests__/index.spec.tsx',
+      templateFile: 'templates/pageTest.tsx.hbs',
     },
   ],
 }

@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       type: 'add',
-      path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.module.scss',
+      path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.style.ts',
       templateFile: 'templates/style.ts.hbs',
     },
     {
