@@ -1,6 +1,6 @@
 <a name="read-me-template" />
 
-# Next.js 12 Complete Boilerplate
+# Next.js 12.3.1 Complete Boilerplate
 
 > This is a readme from next.js 12 complete boilerplate.
 
@@ -26,7 +26,7 @@ Boilerplate to help developers to have a fast project configuration using the mo
 #### What is included?
 
 - Next JS
-- Sass
+- Styled Components
 - Jest
 - React Testing Library 
 - Prettier
